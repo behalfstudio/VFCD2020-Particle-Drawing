@@ -1,5 +1,4 @@
-var PARTICLE_DIRECTORY =
-  "https://vfcd.events/wp-content/themes/vfcd/BLANK/images/particles/components/";
+var PARTICLE_DIRECTORY = "components/";
 
 //-------------------------------------------------------------------//
 
