@@ -177,8 +177,8 @@ class ParticleSystem {
   addParticle(x, y) {
     var newParticle = new Particle();
 
-    var pos = generateRandomPos(WIDTH / 2, HEIGHT / 2, (WIDTH + HEIGHT) / 2);
-    var target = createVector(x, y);
+    var pos = createVector(x, y);
+    var target = pos;
     var maxSpeed = random(MIN_SPEED, MAX_SPEED);
     var maxForce = maxSpeed * MAX_FORCE_RATIO;
 
